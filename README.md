@@ -13,9 +13,9 @@
 
 - In summary:
 
-  docker is an open-source project that use **OS-level virtualization technology** to provide an **isolated context** called **container** to **run application without overheads of virtual machines technology** that used tereditionally!
+  docker is an open-source project that use **OS-level virtualization technology** to provide an **isolated context** called **container** to **run application without overheads of virtual machines technology** that used teraditionally!
 
-in few next paragraphs we will talk about virtualization technology!you can jump to Docker Hello World if you are not intrest!
+in few next paragraphs we will talk about virtualization technology!you can jump to Docker Hello World if you are not interest!
 
 
 
@@ -129,7 +129,7 @@ Container virtualization (often referred as operating system virtualization) is 
   - **Containers don't run at bare-metal speeds**. Containers consume resources more efficiently than virtual machines. But containers are still subject to performance overhead due to overlay networking, interfacing between containers and the host system and so on. If you want 100 percent bare-metal performance, you need to use bare metal, not containers.
   - **Persistent data storage is complicated**. By design, all of the data inside a container disappears forever when the container shuts down, unless you save it somewhere else first. There are ways to save data persistently in Docker, such as Docker Data Volumes, but this is arguably a challenge that still has yet to be addressed in a seamless way.
   - **Graphical applications don't work well**. Docker was designed as a solution for deploying server applications that don't require a graphical interface. While there are some creative strategies (such as X11 video forwarding) that you can use to run a GUI app inside a container, these solutions are clunky at best.
-  - **Not all applications benefit from containers**. In general, only applications that are designed to run as a set of discreet microservices stand to gain the most from containers. Otherwise, Docker's only real benefit is that it can simplify application delivery by providing an easy packaging mechanism. honestly i mean micro-services!
+  - **Not all applications benefit from containers**. In general, only applications that are designed to run as a set of discreet microservices stand to gain the most from containers. Otherwise, Docker's only real benefit is that it can simplify application delivery by providing an easy packaging mechanism. honestly, I mean micro-services!
   
   ![VM Vs. Container](https://blog.netapp.com/wp-content/uploads/2016/03/Screen-Shot-2018-03-20-at-9.24.09-AM-1024x548.png)
   
